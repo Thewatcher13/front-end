@@ -13,7 +13,7 @@
     EXTERNAL AND INTERNAL ARE PROCESSED BY THE BROWSER IN THE ORDER THAT YOU SET THEM.
     BUT INLINE STYLES HAS THE HIGHEST SPECIFICITY AND CAN ONLY OVERWRITTEN WITH !IMPORTANT.
   -->
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="./css/main.css">
 
   <!--IMPORT HERE YOUR FONT-FAMILY, NOT WITH @IMPORT IN CSS, FOR OPMTIMALIZATION REASONS-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,8 +28,8 @@
       THE BROWSER KNOW WICH PICTURE IT HAS TO DOWNLOAD FOR THE SCREENSIZE
      -->
     <picture class="img__box"> 
-      <source srcset="/images/image-product-desktop.jpg" media="(min-width:1024px)">
-      <img class="product__image" src="/images/image-product-mobile.jpg" alt="Product image from Gabrielle Essence Eau De Parfum ">
+      <source srcset="./images/image-product-desktop.jpg" media="(min-width:1024px)">
+      <img class="product__image" src="./images/image-product-mobile.jpg" alt="Product image from Gabrielle Essence Eau De Parfum ">
     </picture>
     <div class="product__info"><!--ALWAYS USE CLASSES, NOT ID BCS IT HAS A HIGH SPECIFICITY-->
       <p class="ribbon__text">
@@ -47,7 +47,7 @@
         <s class="product__info__old__price">$169.99</s> <!--the S tag is used for information that is not accurate / up-to-date-->
       </div>
       <button class="flex__container__btn"> <!--A BUTTON BCS IT TAKES YOU NOT TO A NEW PAGE-->
-        <img class="product__info__btn__icon" src="/images/icon-cart.svg" alt="">
+        <img class="product__info__btn__icon" src="./images/icon-cart.svg" alt="">
        <span class="product__info__btn__text">Add to cart</span> <!--I CHOOSE A SPAN TAG BCS IT IS NO PARAGRPAH BUT IT NEED STYLING-->
       </button>
     </div>
